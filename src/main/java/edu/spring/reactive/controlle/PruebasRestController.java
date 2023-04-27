@@ -96,6 +96,6 @@ public class PruebasRestController {
 
     public Mono<String> test(@RequestBody String body) {
         System.out.println(body);
-        return Mono.just("Hola");
+        return Mono.just("Master");
     }
 }
