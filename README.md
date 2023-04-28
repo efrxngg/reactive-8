@@ -2,4 +2,9 @@
 
 Proyecto base para multiples pruebas con los proyectos de claro
 
-Componentes java, rabbitmq, mongo, etc
+[Dependencies]
+* Spring Boot - Webflux
+* Mongo - Driver
+* Postgres - Drivers
+* Redis - InMemory
+* RabbitMQ - Pub/Sub
