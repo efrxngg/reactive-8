@@ -1,10 +1,10 @@
-package edu.spring.reactive.integration;
+package edu.spring.reactive.integration.claro;
 
-import edu.spring.reactive.integration.interfaces.ClaroApiClient;
-import edu.spring.reactive.integration.utils.MicroEISClient;
-import edu.spring.reactive.integration.utils.MicroGatewayClient;
-import edu.spring.reactive.integration.utils.MicroPersistorClient;
-import edu.spring.reactive.integration.utils.MicroType;
+import edu.spring.reactive.integration.claro.interfaces.ClaroApiClient;
+import edu.spring.reactive.integration.claro.utils.MicroEISClient;
+import edu.spring.reactive.integration.claro.utils.MicroGatewayClient;
+import edu.spring.reactive.integration.claro.utils.MicroPersistorClient;
+import edu.spring.reactive.integration.claro.utils.MicroType;
 import org.springframework.stereotype.Component;
 
 @Component

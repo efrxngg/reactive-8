@@ -1,6 +1,6 @@
-package edu.spring.reactive.integration.utils;
+package edu.spring.reactive.integration.claro.utils;
 
-import edu.spring.reactive.integration.interfaces.ClaroApiClient;
+import edu.spring.reactive.integration.claro.interfaces.ClaroApiClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Component;
@@ -10,9 +10,9 @@ import reactor.core.publisher.Mono;
 import java.util.Collections;
 
 @Component
-public class MicroEISClient implements ClaroApiClient {
+public class MicroGatewayClient implements ClaroApiClient {
 
-    @Value("${integration.service.microeis.url}")
+    @Value("${integration.service.microgateway.url}")
     private String URI;
 
     public <T> Mono<T> exchange(HttpEntity request, Class<T> result) {

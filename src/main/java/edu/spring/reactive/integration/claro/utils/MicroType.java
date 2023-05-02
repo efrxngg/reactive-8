@@ -1,4 +1,4 @@
-package edu.spring.reactive.integration.utils;
+package edu.spring.reactive.integration.claro.utils;
 
 public enum MicroType {
     GATEWAY,

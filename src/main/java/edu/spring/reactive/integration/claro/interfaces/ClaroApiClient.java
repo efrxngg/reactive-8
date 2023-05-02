@@ -1,4 +1,4 @@
-package edu.spring.reactive.integration.interfaces;
+package edu.spring.reactive.integration.claro.interfaces;
 
 
 import org.springframework.http.HttpEntity;
