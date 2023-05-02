@@ -1,9 +1,9 @@
 package edu.spring.reactive.controlle;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import edu.spring.reactive.integration.ClaroApiFactory;
-import edu.spring.reactive.integration.utils.JsonUtils;
-import edu.spring.reactive.integration.utils.MicroType;
+import edu.spring.reactive.integration.claro.ClaroApiFactory;
+import edu.spring.reactive.integration.claro.utils.JsonUtils;
+import edu.spring.reactive.integration.claro.utils.MicroType;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;

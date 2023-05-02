@@ -1,6 +1,6 @@
-package edu.spring.reactive.integration.utils;
+package edu.spring.reactive.integration.claro.utils;
 
-import edu.spring.reactive.integration.interfaces.ClaroApiClient;
+import edu.spring.reactive.integration.claro.interfaces.ClaroApiClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Component;
